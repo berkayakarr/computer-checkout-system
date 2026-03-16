@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.swe212.reservationapp.controller.ReservationController">
+    <children>
+        <Label layoutX="26.0" layoutY="20.0" text="Student ID:" />
+        <TextField fx:id="studentIdField" layoutX="110.0" layoutY="16.0" />
+        <Button layoutX="270.0" layoutY="16.0" text="CLEAR" onAction="#handleClear" prefWidth="60"/>
+
+        <Label layoutX="26.0" layoutY="50.0" text="Computer ID:" />
+        <TextField fx:id="computerIdField" layoutX="110.0" layoutY="46.0" />
+
+        <Label layoutX="26.0" layoutY="79.0" text="Date:" />
+        <DatePicker fx:id="datePicker" layoutX="110.0" layoutY="76.0" />
+
+        <Label layoutX="26.0" layoutY="110.0" text="Duration (H):" />
+        <TextField fx:id="durationField" layoutX="110.0" layoutY="106.0" />
+
+        <Button layoutX="110.0" layoutY="150.0" text="SAVE RESERVATION" onAction="#handleSave" prefWidth="150" />
+        <Button layoutX="270.0" layoutY="150.0" text="CLOSE" onAction="#handleClose" prefWidth="60" />
+    </children>
+</AnchorPane>
