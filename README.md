@@ -19,3 +19,18 @@ A desktop application built with JavaFX and PostgreSQL to manage student compute
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/berkayakarr/computer-checkout-system.git](https://github.com/berkayakarr/computer-checkout-system.git)
+2. Database Configuration:
+
+Install PostgreSQL and ensure the service is running.
+
+Create a database named reservation_db.
+
+Update the database connection credentials in your database connection class/configuration.
+
+3. Run the Application:
+
+Open the project in an IDE like IntelliJ IDEA.
+
+Reload Maven dependencies.
+
+Run the Launcher.java or HelloApplication.java file to start the GUI
